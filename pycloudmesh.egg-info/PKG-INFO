@@ -1,0 +1,34 @@
+Metadata-Version: 2.2
+Name: pycloudmesh
+Version: 0.1.2
+Summary: A package to retrieve reservation costs from AWS, Azure, and GCP
+Home-page: https://github.com/NitheshKG/cloudmesh
+Author: Nithesh
+Author-email: nitheshkg18@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: boto3
+Requires-Dist: requests
+Requires-Dist: google
+Requires-Dist: google-cloud-billing
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# pycloudmesh
+
+pycloudmesh is a Python package to fetch reservation costs from AWS, Azure, and GCP.
+
+## Installation
+```bash
+pip install pycloudmesh

@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="cloudmesh",
-    version="0.1.0",
+    name="pycloudmesh",
+    version="0.1.2",
     author="Nithesh",
     author_email="nitheshkg18@gmail.com",
     description="A package to retrieve reservation costs from AWS, Azure, and GCP",
@@ -11,7 +11,7 @@ setup(
     url="https://github.com/NitheshKG/cloudmesh",
     packages=find_packages(),
     install_requires=[
-        "boto3",  
+        "boto3",
         "requests",
         "google",
         "google-cloud-billing"
